@@ -1,0 +1,281 @@
+.contenedorInfo{
+    height: 600px;
+    width: 390px;
+    background-color: #F7F7F7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedorColor{
+    /*   margin: 0; */
+    box-sizing: border-box;
+    height: 600px;
+    width: 390px;
+/*     background-color: #74CB48; */
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+/*     justify-content: flex-end; */
+    }
+
+
+.encabezado{
+    display: grid;
+    grid-template-columns: 0.3fr 4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "arrLeft nombreInfo idInfo";
+    position: relative;
+    top: 20px;
+}
+
+.arrLeft{
+    grid-area: arrLeft;
+    padding-left: 20px;
+}
+
+.nombreInfo{
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    grid-area: nombreInfo;
+    padding-left: 20px;
+}
+.idInfo{
+    font-size: medium;
+    color: white;
+    grid-area: idInfo;
+    padding-top: 15px;
+}
+.pokeballInfo{
+    position: relative;
+    z-index: 2;
+    left: 180px;
+    bottom: 25px;
+    opacity: 0.05;
+    height: 200px;
+    width: 200px;
+}
+
+.imgInfo{
+    height: 175px;
+    width: 175px;
+    position: absolute;
+    left: 120px;
+    top: 90px;
+    z-index: 3;
+}
+
+.flechaDer{
+    position: relative;
+    z-index: 10;
+    height: 20px;
+    bottom: 60px;
+    left: 360px;
+}
+.flechaIzq {
+    transform: scaleX(-1);
+    z-index: 10;
+    position: relative;
+    height: 20px;
+    bottom: 78px;
+    right: 355px;
+}
+.fondoInfo{
+    background-color: white;
+    height: 62%;
+    width: 98%;
+    position: relative;
+    z-index: 0;
+    left: 5px;
+    bottom: 55px;
+    border-radius: 14px;
+    font-size: smaller;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "tipos"
+        "about"
+        "medidas"
+        "info"
+        "base"
+        "stats";
+}
+
+.tipos{
+/*     display: grid; */
+/*     grid-template-columns: 1fr 1fr;
+    grid-template-areas: "tipo1 tipo2"; */
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: small;
+    color: white;
+    grid-area: tipos;
+}
+
+.tipo1{
+    border-radius: 10px;
+    height: 20px; 
+    width: 60px; 
+    grid-area: tipo1;
+    display: flex;
+    justify-content: center;
+}
+
+.tipo2{
+    border-radius: 10px;
+    height: 20px; 
+    width: 60px; 
+    grid-area: tipo1;
+    display: flex;
+    justify-content: center;
+    grid-area: tipo2;
+}
+
+.about{
+    grid-area: about;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.medidas{
+    grid-area: medidas;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contPeso{
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-areas:
+        "wIcon peso"
+        "txtWeight txtWeight";
+    height: 50%;
+}
+.wIcon{
+    height: 20px;
+    grid-area: wIcon;
+}
+.peso{
+    grid-area: peso;
+    padding-left: 10px;
+}
+.txtWeight{
+    grid-area: txtWeight;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+}
+
+.contAltura{
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-areas:
+        "hIcon altura"
+        "txtWeight txtHeight";
+    height: 50%;
+}
+.hIcon{
+    height: 20px;
+    grid-area: hIcon;
+}
+.altura{
+    grid-area: altura;
+    padding-left: 7px;
+}
+.txtHeight{
+    grid-area: txtHeight;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+}
+
+.contMovs{
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-template-areas:
+        "mov1"
+        "mov2"
+        "txtMoves";
+    height: 50%;
+}
+.mov1{
+    grid-area: mov1;
+    display: flex;
+    justify-content: center;
+}
+.mov2{
+    grid-area: mov2;
+    display: flex;
+    justify-content: center;
+}
+.txtMoves{
+    grid-area: txtMoves;
+    margin:0;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    grid-area: info;
+    padding-left: 9px;
+}
+
+.base{
+    grid-area: base;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.stats{
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-areas: "descriptions bars";
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: smaller;
+}
+
+
+.bar{
+    display: flex;
+    height: 5px;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+.descriptions{
+    grid-area: descriptions;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+/*     display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "statString statNumber"; */
+}
+
+/* .statString{
+    grid-area: statString;
+}
+.statNumber{
+    grid-area: statNumber;
+}
+ */
+.bars{
+    grid-area: bars;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}

@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+.contenedor{
+/*   margin: 0; */
+  box-sizing: border-box;
+  display: flex;
+justify-content: space-evenly; 
+flex-wrap: wrap;
+  height: 600px;
+  width: 390px;
+  background-color: #F7F7F7;
+  font-family: 'Poppins', sans-serif;
+}

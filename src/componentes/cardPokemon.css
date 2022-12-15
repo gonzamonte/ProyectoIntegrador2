@@ -1,0 +1,154 @@
+.nombre{
+    color: white;
+    z-index: 1;
+    /* position: absolute; */
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    bottom: 12px;
+    justify-content: center;
+    font-size: 12px;
+
+}
+
+.imagen{
+    height: 75px;
+    width: 75px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.cuadradito{
+    margin: 5px;
+    height: 112px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+.card{
+
+    margin: 5px;
+    height: 112px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+/* .Poison{
+    background-color: #A43E9E;
+    color: #A43E9E;
+    margin: 5px;
+    height: 112px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+.Fire{
+    background-color: #F57D31;
+    color: #F57D31;
+    margin: 5px;
+    height: 112px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+.Water{
+    background-color: #6493EB;
+    color: #6493EB;
+    margin: 5px;
+    height: 112px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+.Bug{
+    background-color: #A7B723;
+    color: #A7B723;
+    margin: 5px;
+    height: 112px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+.Flying{
+    background-color: #A891EC;
+    color: #A891EC;
+    margin: 5px;
+    height: 112px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+.Electric{
+    background-color: #F9CF30;
+    color: #F9CF30;
+    margin: 5px;
+    height: 112px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+.Ghost{
+    background-color: #705598;
+    color: #705598;
+    margin: 5px;
+    height: 112px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+.Normal{
+    background-color: #AAA67F;
+    color: #AAA67F;
+    margin: 5px;
+    height: 112px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+.Psychic{
+    background-color: #FB5584;
+    color: #FB5584;
+    margin: 5px;
+    height: 112px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+.Steel{
+    background-color: #B7B9D0;
+    color: #B7B9D0;
+    margin: 5px;
+    height: 112px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+.Rock{
+    background-color: #B69E31;
+    color: #B69E31;
+    margin: 5px;
+    height: 112px;
+    width: 112px;
+    border-radius: 10px;
+} */
+
+.id2{
+font-size: 10px;
+font-size: 10px;
+display: flex;
+justify-content: flex-end;
+margin-right: 10px;
+position: relative;
+z-index: 2;
+}
+
+.fondo{
+    background: fixed;
+    background-color: white;
+    height: 80%;
+    width: 96%;
+    position: relative;
+    left: 2px;
+    bottom: 14px;
+    border-radius: 8px 8px 0px 0px;
+}

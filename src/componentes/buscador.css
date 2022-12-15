@@ -1,0 +1,46 @@
+.header{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "imgLogo titulo sort"
+                        " buscar buscar buscar";
+    height: 230px;
+}
+
+.imgLogo{
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    margin-left: 25px;
+    grid-area: imgLogo;
+}
+
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    grid-area: titulo;
+}
+
+.sort{
+    position: relative;
+    top: 30px;
+    left: 110px;
+    grid-area: sort;
+    height: 30px;
+    width: 30px;
+    
+
+}
+
+.buscar{
+    grid-area: buscar;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.toggle{
+    font-size: small;
+    position: relative;
+    left: 300px;
+    bottom: 165px;
+    font-weight: bold;
+}
